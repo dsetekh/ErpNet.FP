@@ -275,7 +275,7 @@ NOTE: If the whole section "payments" is not provided, then the whole amount of 
 * * **"bank"** - payment with bank transfer, NRA mapping "SW"
 * * **"reserved1"** - often used by government regulations for specific purposes (health reimbursment, etc.), NRA mapping "SR1"
 * * **"reserved2"** - another reserved payment, NRA mapping "SR2"
-
+* * **"change"** - internal payment type used for issuing recipts with change ( negative number )
 
 ### Example request body:
 ```json
